@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 25px;
+}
+.cal{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -5px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.body{
+    margin: 35px;
+    margin-left: 100px;
+    height: 550px;
+    width: 420px;
+    background-color: rgb(1, 15, 15);
+    border-radius: 25px;
+}
+
+.head{
+    margin-left: 7px;
+    height: 100px;
+    width: 400px;
+    background-color: rgb(249, 246, 246);
+    border-radius: 25px;
+    justify-content: center;
+    font-size: 50px;
+    text-align: end;
+    color: rgb(15, 15, 15);
+    padding-top: 90px;
+    padding-right: 10px;
+    
+}
+
+.head2{
+    height: 380px;
+    width: 420px;
+    background-color: rgb(16, 16, 17);
+    border-radius: 25px;
+    color: rgb(19, 19, 18);
+
+}
+
+.element{
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    color: rgb(3, 10, 17);
+}
+
+
+.input{
+    width: 186px;
+    font-size: 40px;
+    margin-top: -41px;
+    position: absolute;
+    margin-left: -217px;
+    border: none;
+    color: rgb(14, 13, 13);
+    background-color: rgb(254, 250, 250);   
+}
+
+button{
+    margin: 5px 1px;
+    margin-left: 7px;
+    height: 45px;
+    width: 90px;
+    font-size: larger;
+    background-color: rgb(244, 244, 247);
+    border-radius: 15px;
+    justify-content: center;
+    text-align:center;
+    color: rgb(15, 15, 15);
+    cursor: pointer;
+
+
+}
+
+#num2{
+    width: 140px;
+    margin-right: 55px;
+}
+
+#num1{
+    width: 140px;
+    margin-left: -41px;
+}
+
+
+
+  
